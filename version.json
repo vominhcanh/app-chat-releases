@@ -1,0 +1,106 @@
+{
+  "ios": {
+    "latest": {
+      "version": "1.1.0"
+    },
+    "minSupported": {
+      "version": "1.0.0"
+    },
+    "url": "itms-beta://"
+  },
+  "android": {
+    "latest": {
+      "version": "1.1.0",
+      "build": 2
+    },
+    "minSupported": {
+      "version": "1.0.0"
+    }
+  },
+  "mac": {
+    "latest": {
+      "version": "1.2.0",
+      "build": 9
+    }
+  },
+  "windows": {
+    "latest": {
+      "version": "1.2.0",
+      "build": 9
+    }
+  },
+  "releases": [
+    {
+      "version": "1.1.0",
+      "date": "2026-09-30",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "features": [
+        "Khay tiện ích \"+\" mới: mở ngay chỗ bàn phím, biểu tượng màu, chuyển qua lại với bàn phím không giật.",
+        "Tạo bình chọn toàn màn hình: ghim lên đầu trò chuyện, đặt thời hạn, ẩn người bình chọn, chọn nhiều phương án.",
+        "Sửa bình chọn và thêm phương án ngay trên thẻ bình chọn.",
+        "Xem ai đã chọn phương án nào; avatar người bình chọn trên từng phương án.",
+        "Báo khi có phiên bản mới, kèm danh sách tính năng mới và lỗi đã sửa.",
+        "Bản Android nhẹ hơn một nửa, mở nhanh hơn."
+      ],
+      "fixes": [
+        "Android: chữ không còn bị cắt mất (vd nút \"Đăng nhập\").",
+        "Nhãn Trưởng nhóm / Phó nhóm nằm giữa dòng thành viên.",
+        "Đăng xuất hoặc đổi cửa hàng xoá sạch dữ liệu tệp của phiên trước."
+      ]
+    },
+    {
+      "version": "1.2.0",
+      "build": 9,
+      "date": "2026-09-30",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "features": [
+        "Tạo, sửa bình chọn và thêm phương án; xem ai đã chọn phương án nào.",
+        "Bảng \"Gửi thêm\" với biểu tượng màu dễ nhận.",
+        "Báo khi có phiên bản mới, kèm danh sách tính năng mới và lỗi đã sửa."
+      ],
+      "fixes": [
+        "Nhãn Trưởng nhóm / Phó nhóm nằm giữa dòng thành viên.",
+        "Đăng xuất xoá sạch dữ liệu tệp của phiên trước."
+      ]
+    },
+    {
+      "version": "1.1.1",
+      "build": 8,
+      "date": "2026-09-29",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "features": [
+        "Gợi ý @ nhắc tên và / trả lời nhanh chọn bằng bàn phím (↑/↓, Tab/Enter, Esc).",
+        "Con trỏ tự vào ô nhập khi mở cuộc trò chuyện."
+      ],
+      "fixes": [
+        "Menu chuột phải và bảng thao tác không còn chớp khi mở.",
+        "Cỡ chữ đều theo một thang chung; phông hệ thống mặc định."
+      ]
+    },
+    {
+      "version": "1.0.0",
+      "date": "2026-09-27",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "notes": [
+        "Ô nhập tin tự thu nhỏ lại sau khi gửi đoạn dài.",
+        "Chọn ảnh, video, tệp: hiện ngay trên ô soạn, các nút không còn bị khoá khi đang xử lý.",
+        "Sửa lỗi có thể thiếu một đoạn tin cũ khi mở lại ứng dụng sau thời gian dài.",
+        "Tạo nhóm không còn bị trùng khi bấm hai lần; cảnh báo rõ khi rời nhóm sẽ giải tán nhóm.",
+        "Danh sách kênh, khung chat và ô soạn tin mượt hơn.",
+        "Không còn treo khi mạng chập chờn; thông báo lỗi dễ hiểu hơn."
+      ]
+    }
+  ]
+}
