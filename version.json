@@ -10,8 +10,8 @@
   },
   "android": {
     "latest": {
-      "version": "1.1.1",
-      "build": 3
+      "version": "1.1.0",
+      "build": 2
     },
     "minSupported": {
       "version": "1.0.0"
@@ -33,21 +33,6 @@
     "url": "https://github.com/vominhcanh/app-chat-releases/releases/download/desktop-v1.2.0-9/InternalApp-windows.exe"
   },
   "releases": [
-    {
-      "version": "1.1.1",
-      "date": "2026-10-01",
-      "platforms": [
-        "ios",
-        "android"
-      ],
-      "features": [
-        "(Thử) Tính năng A: khay tiện ích mới.",
-        "(Thử) Tính năng B: sửa bình chọn."
-      ],
-      "fixes": [
-        "(Thử) Sửa lỗi chữ bị cắt."
-      ]
-    },
     {
       "version": "1.1.0",
       "date": "2026-09-30",
