@@ -20,25 +20,53 @@
   },
   "mac": {
     "latest": {
-      "version": "1.5.3",
-      "build": 18
+      "version": "1.5.4",
+      "build": 19
     },
-    "url": "https://github.com/vominhcanh/app-chat-releases/releases/download/desktop-v1.5.3-18/InternalApp-mac.dmg",
-    "sha256": "9073d7370c2156b849641b53fc4f89f26a0b82518c20188f39bfddb860faa68f",
-    "size": 6689073,
-    "signature": "8f1kXW073pR3uNHmwOA09wpBq4uOhL318yAkZsFvQ/pLSe82z5gwQHqNk45w4rvwf2NWgv1nmfiGrXbqebLABA=="
+    "url": "https://github.com/vominhcanh/app-chat-releases/releases/download/desktop-v1.5.4-19/InternalApp-mac.dmg",
+    "sha256": "a56016b8e78375e7569038c44251267f04e77e97c261efc41a3c1c7cb8d1caf4",
+    "size": 6846096,
+    "signature": "dzps4K/CkSDTyCYizZVks4QSUJTf/rpqh9fNy1nAg77J2TCSqqYVf9autAruP5uoREDikZrsFL+E+aRnbWmaBw=="
   },
   "windows": {
     "latest": {
-      "version": "1.5.3",
-      "build": 18
+      "version": "1.5.4",
+      "build": 19
     },
-    "url": "https://github.com/vominhcanh/app-chat-releases/releases/download/desktop-v1.5.3-18/InternalApp-windows.exe",
-    "sha256": "a4c3506ff95228705260655592ac84a22707287918e05ee16bc8693f782cdfbd",
-    "size": 115323285,
-    "signature": "hN75PNI7GiQ3Ro7Enystzlk5Od5PrsktoLWsfwZhfduHd/as1BmiCG7XJMzuW8uPUMhO2EbxYYX1ZhPz8SEDAA=="
+    "url": "https://github.com/vominhcanh/app-chat-releases/releases/download/desktop-v1.5.4-19/InternalApp-windows.exe",
+    "sha256": "88f02835801eb30b21b486bceee367f4f8166e4abea1211b263fa4c1a767f3ef",
+    "size": 115414310,
+    "signature": "dhJU1yZBqx1C03Qd+krnQ310APhbTILJSd73btHqrSmwZd0eYJP9766zdOMRDDc1HNI3yPC/dqkEPLKlPCs0CQ=="
   },
   "releases": [
+    {
+      "version": "1.5.4",
+      "build": 19,
+      "date": "2026-10-22",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "features": [
+        "Công việc: chọn nhiều việc để đổi trạng thái, ưu tiên, người làm, sprint, hạn… cùng lúc; dải cảnh báo việc quá hạn và sắp đến hạn.",
+        "Xem Tiến độ (Gantt) của mọi dự án và Sức khoẻ sprint; bảng việc thêm 13 cột, kéo đổi chỗ cột, chỉnh mật độ dòng, chuột phải một việc để mở menu thao tác.",
+        "Duyệt giờ công, Khối lượng nhân sự và Dashboard có widget; dự án thêm tab Tài chính và Cài đặt đầy đủ (luồng chuyển, trường tuỳ chỉnh, SLA, tự động hoá…).",
+        "Ứng dụng đổi tên thành Acorneri Holdings — bản đang cài vẫn tự cập nhật, không mất đăng nhập.",
+        "Cảm xúc kiểu Zalo: một viên tóm tắt dưới tin, rê chuột xem ai đã thả; thả được mọi emoji từ bảng emoji của máy.",
+        "Báo lỗi nhanh: nút Báo lỗi ở thanh bên chụp cửa sổ app, khoanh chỗ lỗi rồi gửi vào cuộc trò chuyện.",
+        "Trình sửa ảnh có công cụ Chữ để ghi chú lên ảnh.",
+        "Ô soạn: nút Khối code, nút mở bảng emoji của máy, bảng Sticker & GIF mới; bấm tệp đính kèm để đổi tên, sửa ảnh hoặc dán thành chữ.",
+        "Sửa tệp .md ngay trong màn xem tệp và gửi lại bản đã sửa.",
+        "Nút “↑ N tin chưa đọc” đưa tới tin chưa đọc đầu tiên khi vào nhóm.",
+        "Hình nền Chấm bi, Ô lưới, Gợn sóng hiện đúng hoạ tiết.",
+        "Tài khoản › Ứng dụng có “Kiểm tra cập nhật”; thẻ liên kết gọn có nút sao chép liên kết."
+      ],
+      "fixes": [
+        "Tin nhắn dài (hơn 12 dòng hoặc 900 ký tự) lại được thu gọn, bấm “Xem thêm” để đọc hết; thẻ thư chia sẻ và Bản tin AI thu gọn cùng một mức.",
+        "Khối mã: dòng dài tự xuống dòng, không tô màu nhầm chữ tiếng Việt, bôi đen chép được cả liên kết.",
+        "Gõ @ chọn người đã đặt biệt danh: lúc gửi tự đổi về tên thật để người khác đọc hiểu."
+      ]
+    },
     {
       "version": "1.5.3",
       "build": 18,
