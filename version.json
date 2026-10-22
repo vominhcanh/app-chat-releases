@@ -20,25 +20,54 @@
   },
   "mac": {
     "latest": {
-      "version": "1.5.2",
-      "build": 17
+      "version": "1.5.3",
+      "build": 18
     },
-    "url": "https://github.com/vominhcanh/app-chat-releases/releases/download/desktop-v1.5.2-17/InternalApp-mac.dmg",
-    "sha256": "49202c56c99902ec54e9c17ca160c65e3b9803398c37e731be2994aed81490ab",
-    "size": 6578234,
-    "signature": "+V5vsvitd3RjthIk5Rtv6QuIyIEd/i78zh2EaQyfMZxtiLY10L0HzDcFt1czmdNlsnzMTdGCCD70KYyZmJvMDQ=="
+    "url": "https://github.com/vominhcanh/app-chat-releases/releases/download/desktop-v1.5.3-18/InternalApp-mac.dmg",
+    "sha256": "9073d7370c2156b849641b53fc4f89f26a0b82518c20188f39bfddb860faa68f",
+    "size": 6689073,
+    "signature": "8f1kXW073pR3uNHmwOA09wpBq4uOhL318yAkZsFvQ/pLSe82z5gwQHqNk45w4rvwf2NWgv1nmfiGrXbqebLABA=="
   },
   "windows": {
     "latest": {
-      "version": "1.5.2",
-      "build": 17
+      "version": "1.5.3",
+      "build": 18
     },
-    "url": "https://github.com/vominhcanh/app-chat-releases/releases/download/desktop-v1.5.2-17/InternalApp-windows.exe",
-    "sha256": "88767303dcef5886da0b839779722f7a3760f57710fdced3e11ee82f6d4b6adc",
-    "size": 115257012,
-    "signature": "yFOFahuU3B+XXRLclSzmqjOnSztcPuq4nO7kveCbOa6Zdv8IchpXKlcvMd0w3FJ+oak6fouh9texQASIcttbCQ=="
+    "url": "https://github.com/vominhcanh/app-chat-releases/releases/download/desktop-v1.5.3-18/InternalApp-windows.exe",
+    "sha256": "a4c3506ff95228705260655592ac84a22707287918e05ee16bc8693f782cdfbd",
+    "size": 115323285,
+    "signature": "hN75PNI7GiQ3Ro7Enystzlk5Od5PrsktoLWsfwZhfduHd/as1BmiCG7XJMzuW8uPUMhO2EbxYYX1ZhPz8SEDAA=="
   },
   "releases": [
+    {
+      "version": "1.5.3",
+      "build": 18,
+      "date": "2026-10-19",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "features": [
+        "Khu Công việc mới giống bản web: Việc của tôi, Dự án, Chờ duyệt, Dashboard, Khối lượng việc; lọc theo dự án, trạng thái, ưu tiên, hạn; xuất CSV và thùng rác.",
+        "Xem việc dạng Bảng, Kanban, Lịch tháng/năm; sửa trạng thái, người làm, hạn, ưu tiên… ngay trên ô.",
+        "Bấm một việc mở khung chi tiết bên phải với đủ thông tin; ↑↓ để sang việc trước/sau.",
+        "Trang dự án làm mới: Việc, Sprint, Phát hành, Lịch dự án, Mốc, Tổng quan, Thành viên, Cài đặt; xem dự án dạng Thẻ hoặc Bảng.",
+        "Dán đoạn văn bản dài có định dạng sẽ tự thành tệp .md đính kèm (có thể hoàn tác).",
+        "Sao chép nhanh ảnh trong tin nhắn bằng nút trên thanh thao tác hoặc chuột phải › Sao chép ảnh.",
+        "Ảnh, video, tệp đã chọn mà chưa gửi được giữ làm nháp khi chuyển sang cuộc trò chuyện khác.",
+        "Nhắc tên (@) hiện biệt danh bạn đặt; bấm @tên để xem thông tin người đó.",
+        "Nhấp vào tin để xem giờ gửi; chuyển tiếp tìm được cả người trong Danh bạ.",
+        "Báo mất mạng rõ ràng hơn, vẫn xem được dữ liệu đã lưu và tin sẽ tự gửi khi có mạng lại.",
+        "Định dạng tin thêm trích dẫn nhiều cấp, danh sách lồng nhau và các ký hiệu ©, ®, ™, ±, …"
+      ],
+      "fixes": [
+        "Nhắc tên trong nhóm chèn đúng tên thật thay vì biệt danh riêng.",
+        "Cảm xúc đã thả không còn bị che khi tin nhắn rộng; nhiều cảm xúc tự xuống hàng gọn gàng.",
+        "Thẻ thư chia sẻ không còn bị cắt mép khi khung chat hẹp.",
+        "Windows: nút đóng của bảng Tùy chọn bấm được.",
+        "Hết lỗi hiển thị khi bật giảm chuyển động."
+      ]
+    },
     {
       "version": "1.5.2",
       "build": 17,
