@@ -20,25 +20,37 @@
   },
   "mac": {
     "latest": {
-      "version": "1.5.4",
-      "build": 19
+      "version": "1.5.5",
+      "build": 20
     },
-    "url": "https://github.com/vominhcanh/app-chat-releases/releases/download/desktop-v1.5.4-19/InternalApp-mac.dmg",
-    "sha256": "a56016b8e78375e7569038c44251267f04e77e97c261efc41a3c1c7cb8d1caf4",
-    "size": 6846096,
-    "signature": "dzps4K/CkSDTyCYizZVks4QSUJTf/rpqh9fNy1nAg77J2TCSqqYVf9autAruP5uoREDikZrsFL+E+aRnbWmaBw=="
+    "url": "https://github.com/vominhcanh/app-chat-releases/releases/download/desktop-v1.5.5-20/InternalApp-mac.dmg",
+    "sha256": "17d8bdf320f0e244011bd3ac26189e1680f325883e87d93b82e4e207c3fed16f",
+    "size": 7100989,
+    "signature": "FSdziIL/z75t8qQ2qgpncz4JarUmALVRhgEiX/p35LWqTuvA5QJNUDHY4BC71EavessV7H5y2gfPaA/FukclAg=="
   },
   "windows": {
     "latest": {
-      "version": "1.5.4",
-      "build": 19
+      "version": "1.5.5",
+      "build": 20
     },
-    "url": "https://github.com/vominhcanh/app-chat-releases/releases/download/desktop-v1.5.4-19/InternalApp-windows.exe",
-    "sha256": "88f02835801eb30b21b486bceee367f4f8166e4abea1211b263fa4c1a767f3ef",
-    "size": 115414310,
-    "signature": "dhJU1yZBqx1C03Qd+krnQ310APhbTILJSd73btHqrSmwZd0eYJP9766zdOMRDDc1HNI3yPC/dqkEPLKlPCs0CQ=="
+    "url": "https://github.com/vominhcanh/app-chat-releases/releases/download/desktop-v1.5.5-20/InternalApp-windows.exe",
+    "sha256": "62af8aff1a2cd89a3bd2f6c5634b496ca36d03e822ab1deef50960bc9ad9b6af",
+    "size": 115593765,
+    "signature": "uj35CceAs5JtZEuoOC/2Fv/y8yCp+tETU3A3cRS362Cft9FmLskTne5GCBHoVhkt/25xRAA5GbRL/JFi5QS2BA=="
   },
   "releases": [
+    {
+      "version": "1.5.5",
+      "build": 20,
+      "date": "2026-10-22",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "features": [
+        "Phân quyền vận hành: tài khoản vận hành (chỉ dùng chat để báo lỗi, gửi yêu cầu) chỉ thấy những khu được phép — khu Công việc tự ẩn khi không được giao quyền."
+      ]
+    },
     {
       "version": "1.5.4",
       "build": 19,
