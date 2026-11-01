@@ -20,23 +20,23 @@
   },
   "mac": {
     "latest": {
-      "version": "1.5.6",
-      "build": 21
+      "version": "1.5.7",
+      "build": 22
     },
-    "url": "https://github.com/vominhcanh/app-chat-releases/releases/download/desktop-v1.5.6-21/InternalApp-mac.dmg",
-    "sha256": "76fa3a347b9c5f47b3cbaa32d8795bbea6f877bc0c39e1e54e7ed07fd263f90a",
-    "size": 8172430,
-    "signature": "6c2e6BiZT94NwQW8TIRlduYBVhgFzPEBZLJ946tBt56ue32Wnxl3biZ99qjj5FnkGxprzTY/3U42Zx761DAdCw=="
+    "url": "https://github.com/vominhcanh/app-chat-releases/releases/download/desktop-v1.5.7-22/InternalApp-mac.dmg",
+    "sha256": "3215e4b327c9910368e7eed2e2faa817d5f3634114d19b3a2c02774216afbd62",
+    "size": 7299540,
+    "signature": "VJWoscaBbsQFVD6ouiWzC41oGqlHurJ2mgmrA2sw2hh1N1Aa7DQbREdcXWkao/y9eb2TzzU9G0CxkPCyTl29DA=="
   },
   "windows": {
     "latest": {
-      "version": "1.5.6",
-      "build": 21
+      "version": "1.5.7",
+      "build": 22
     },
-    "url": "https://github.com/vominhcanh/app-chat-releases/releases/download/desktop-v1.5.6-21/InternalApp-windows.exe",
-    "sha256": "71db09a6f13f598b264af9220889f04a2c41c887d1d323937d1e4eb7b4226ad5",
-    "size": 115600572,
-    "signature": "lXsHke497vxJoMNNSXtoc65TjdpYGe1NZDUrF5eIg6kGRfWiH4qrgUTNIpsMvNPECre99Tcmgu04Nxv103ysCg=="
+    "url": "https://github.com/vominhcanh/app-chat-releases/releases/download/desktop-v1.5.7-22/InternalApp-windows.exe",
+    "sha256": "d8e475072a9b4a34d1495857e30e583cbff33b541ef1db1374d40f36c50f6068",
+    "size": 115648361,
+    "signature": "ZtWtO0gNAFVXjQzw5iOx5x0+1j0aNkcJR541tRTktYcvYiJ3VQwAdIs8/80hA/hVc3qZRHHIq0jra3P7me6mCQ=="
   },
   "releases": [
     {
@@ -446,5 +446,15 @@
         "Không còn treo khi mạng chập chờn; thông báo lỗi dễ hiểu hơn."
       ]
     }
-  ]
+  ],
+  "linux": {
+    "latest": {
+      "version": "1.5.7",
+      "build": 22
+    },
+    "url": "https://github.com/vominhcanh/app-chat-releases/releases/download/desktop-v1.5.7-22/InternalApp-linux.AppImage",
+    "sha256": "e3f3d54dde58113c59df47080371b801b2df6f4189a964994afca20916901896",
+    "size": 130052209,
+    "signature": "NcUitRqsCWDtKpELArkjUjjQmirdHnodYP+rE7VVgyMTC+utaQN57khn/qNYVmk7kBZSCs6oNBGdKssB1BrABQ=="
+  }
 }
