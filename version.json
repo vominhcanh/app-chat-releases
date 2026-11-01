@@ -1,0 +1,450 @@
+{
+  "ios": {
+    "latest": {
+      "version": "1.1.0"
+    },
+    "minSupported": {
+      "version": "1.0.0"
+    },
+    "url": "itms-beta://"
+  },
+  "android": {
+    "latest": {
+      "version": "1.1.0",
+      "build": 2
+    },
+    "minSupported": {
+      "version": "1.0.0"
+    },
+    "url": "https://github.com/vominhcanh/app-chat-releases/releases/download/mobile-v1.1.0-2/InternalApp-android.apk"
+  },
+  "mac": {
+    "latest": {
+      "version": "1.5.6",
+      "build": 21
+    },
+    "url": "https://github.com/vominhcanh/app-chat-releases/releases/download/desktop-v1.5.6-21/InternalApp-mac.dmg",
+    "sha256": "76fa3a347b9c5f47b3cbaa32d8795bbea6f877bc0c39e1e54e7ed07fd263f90a",
+    "size": 8172430,
+    "signature": "6c2e6BiZT94NwQW8TIRlduYBVhgFzPEBZLJ946tBt56ue32Wnxl3biZ99qjj5FnkGxprzTY/3U42Zx761DAdCw=="
+  },
+  "windows": {
+    "latest": {
+      "version": "1.5.6",
+      "build": 21
+    },
+    "url": "https://github.com/vominhcanh/app-chat-releases/releases/download/desktop-v1.5.6-21/InternalApp-windows.exe",
+    "sha256": "71db09a6f13f598b264af9220889f04a2c41c887d1d323937d1e4eb7b4226ad5",
+    "size": 115600572,
+    "signature": "lXsHke497vxJoMNNSXtoc65TjdpYGe1NZDUrF5eIg6kGRfWiH4qrgUTNIpsMvNPECre99Tcmgu04Nxv103ysCg=="
+  },
+  "releases": [
+    {
+      "version": "1.5.7",
+      "build": 22,
+      "date": "2026-11-01",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "features": [
+        "Có bản cho Linux: bộ cài .AppImage (mọi bản Linux) và .deb (Ubuntu/Debian), cùng tài khoản và tính năng như bản Windows.",
+        "Cuộc họp: hàng “Cuộc họp” ở đầu Tin nhắn — lên lịch, họp ngay và xem lại bản ghi."
+      ]
+    },
+    {
+      "version": "1.5.7",
+      "build": 22,
+      "date": "2026-11-01",
+      "platforms": [
+        "linux"
+      ],
+      "features": [
+        "Bản đầu tiên cho Linux: khay hệ thống, thông báo, mở cùng máy như bản Windows. Chưa tự cập nhật — khi có bản mới, ứng dụng báo và mở trang tải.",
+        "Cuộc họp: hàng “Cuộc họp” ở đầu Tin nhắn — lên lịch, họp ngay và xem lại bản ghi."
+      ]
+    },
+    {
+      "version": "1.4.0",
+      "date": "2026-11-01",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "features": [
+        "Chấm công: nút Chấm vào / Chấm ra ngay trên đầu Tin nhắn (đếm giờ trong ca), chấm theo vị trí, Wi-Fi hoặc mã QR; mất mạng vẫn chấm được, có mạng lại tự gửi. Lịch sử chấm công, điều chỉnh công và bảng công tháng ở Tài khoản › Nhân sự (khi được cấp quyền).",
+        "Cuộc họp: hàng “Cuộc họp” ở đầu Tin nhắn — lên lịch, họp ngay và xem lại bản ghi.",
+        "Cảm xúc kiểu Zalo: các cảm xúc gom thành một viên gọn dưới tin.",
+        "Ô soạn: gợi ý GIF ngay khi gõ chữ, bảng Sticker & GIF mới, nút mở bảng emoji của máy; khay “+” có Khối code.",
+        "Bấm tệp đính kèm chưa gửi để đổi tên; ảnh, video, tệp đã chọn mà chưa gửi được giữ làm nháp khi sang cuộc trò chuyện khác.",
+        "Trình sửa ảnh có công cụ Chữ để ghi chú lên ảnh.",
+        "Sửa tệp .md ngay trong màn xem tệp và gửi lại bản đã sửa.",
+        "Chuyển tiếp tin tìm được cả người trong Danh bạ.",
+        "Công việc: dải cảnh báo việc quá hạn và sắp đến hạn; xuất danh sách việc ra CSV.",
+        "Tài khoản chỉ dùng chat (không được giao quyền Công việc) không còn thấy tab Công việc."
+      ]
+    },
+    {
+      "version": "1.5.6",
+      "build": 21,
+      "date": "2026-10-26",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "fixes": [
+        "Windows: sửa lỗi phải đăng nhập lại mỗi lần mở lại app — phiên đăng nhập nay được giữ đúng.",
+        "Sửa lỗi không sao chép được một số ảnh (WEBP/GIF) trong tin nhắn.",
+        "Chèn khối code: con trỏ đặt sẵn ở giữa để gõ/dán ngay, không còn nằm ở cuối.",
+        "Bấm vào mã việc ở màn chi tiết công việc để sao chép nhanh."
+      ]
+    },
+    {
+      "version": "1.5.5",
+      "build": 20,
+      "date": "2026-10-22",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "features": [
+        "Phân quyền vận hành: tài khoản vận hành (chỉ dùng chat để báo lỗi, gửi yêu cầu) chỉ thấy những khu được phép — khu Công việc tự ẩn khi không được giao quyền."
+      ]
+    },
+    {
+      "version": "1.5.4",
+      "build": 19,
+      "date": "2026-10-22",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "features": [
+        "Công việc: chọn nhiều việc để đổi trạng thái, ưu tiên, người làm, sprint, hạn… cùng lúc; dải cảnh báo việc quá hạn và sắp đến hạn.",
+        "Xem Tiến độ (Gantt) của mọi dự án và Sức khoẻ sprint; bảng việc thêm 13 cột, kéo đổi chỗ cột, chỉnh mật độ dòng, chuột phải một việc để mở menu thao tác.",
+        "Duyệt giờ công, Khối lượng nhân sự và Dashboard có widget; dự án thêm tab Tài chính và Cài đặt đầy đủ (luồng chuyển, trường tuỳ chỉnh, SLA, tự động hoá…).",
+        "Ứng dụng đổi tên thành Acorneri Holdings — bản đang cài vẫn tự cập nhật, không mất đăng nhập.",
+        "Cảm xúc kiểu Zalo: một viên tóm tắt dưới tin, rê chuột xem ai đã thả; thả được mọi emoji từ bảng emoji của máy.",
+        "Báo lỗi nhanh: nút Báo lỗi ở thanh bên chụp cửa sổ app, khoanh chỗ lỗi rồi gửi vào cuộc trò chuyện.",
+        "Trình sửa ảnh có công cụ Chữ để ghi chú lên ảnh.",
+        "Ô soạn: nút Khối code, nút mở bảng emoji của máy, bảng Sticker & GIF mới; bấm tệp đính kèm để đổi tên, sửa ảnh hoặc dán thành chữ.",
+        "Sửa tệp .md ngay trong màn xem tệp và gửi lại bản đã sửa.",
+        "Nút “↑ N tin chưa đọc” đưa tới tin chưa đọc đầu tiên khi vào nhóm.",
+        "Hình nền Chấm bi, Ô lưới, Gợn sóng hiện đúng hoạ tiết.",
+        "Tài khoản › Ứng dụng có “Kiểm tra cập nhật”; thẻ liên kết gọn có nút sao chép liên kết."
+      ],
+      "fixes": [
+        "Tin nhắn dài (hơn 12 dòng hoặc 900 ký tự) lại được thu gọn, bấm “Xem thêm” để đọc hết; thẻ thư chia sẻ và Bản tin AI thu gọn cùng một mức.",
+        "Khối mã: dòng dài tự xuống dòng, không tô màu nhầm chữ tiếng Việt, bôi đen chép được cả liên kết.",
+        "Gõ @ chọn người đã đặt biệt danh: lúc gửi tự đổi về tên thật để người khác đọc hiểu."
+      ]
+    },
+    {
+      "version": "1.5.3",
+      "build": 18,
+      "date": "2026-10-19",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "features": [
+        "Khu Công việc mới giống bản web: Việc của tôi, Dự án, Chờ duyệt, Dashboard, Khối lượng việc; lọc theo dự án, trạng thái, ưu tiên, hạn; xuất CSV và thùng rác.",
+        "Xem việc dạng Bảng, Kanban, Lịch tháng/năm; sửa trạng thái, người làm, hạn, ưu tiên… ngay trên ô.",
+        "Bấm một việc mở khung chi tiết bên phải với đủ thông tin; ↑↓ để sang việc trước/sau.",
+        "Trang dự án làm mới: Việc, Sprint, Phát hành, Lịch dự án, Mốc, Tổng quan, Thành viên, Cài đặt; xem dự án dạng Thẻ hoặc Bảng.",
+        "Dán đoạn văn bản dài có định dạng sẽ tự thành tệp .md đính kèm (có thể hoàn tác).",
+        "Sao chép nhanh ảnh trong tin nhắn bằng nút trên thanh thao tác hoặc chuột phải › Sao chép ảnh.",
+        "Ảnh, video, tệp đã chọn mà chưa gửi được giữ làm nháp khi chuyển sang cuộc trò chuyện khác.",
+        "Nhắc tên (@) hiện biệt danh bạn đặt; bấm @tên để xem thông tin người đó.",
+        "Nhấp vào tin để xem giờ gửi; chuyển tiếp tìm được cả người trong Danh bạ.",
+        "Báo mất mạng rõ ràng hơn, vẫn xem được dữ liệu đã lưu và tin sẽ tự gửi khi có mạng lại.",
+        "Định dạng tin thêm trích dẫn nhiều cấp, danh sách lồng nhau và các ký hiệu ©, ®, ™, ±, …"
+      ],
+      "fixes": [
+        "Nhắc tên trong nhóm chèn đúng tên thật thay vì biệt danh riêng.",
+        "Cảm xúc đã thả không còn bị che khi tin nhắn rộng; nhiều cảm xúc tự xuống hàng gọn gàng.",
+        "Thẻ thư chia sẻ không còn bị cắt mép khi khung chat hẹp.",
+        "Windows: nút đóng của bảng Tùy chọn bấm được.",
+        "Hết lỗi hiển thị khi bật giảm chuyển động."
+      ]
+    },
+    {
+      "version": "1.5.2",
+      "build": 17,
+      "date": "2026-10-16",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "features": [
+        "Tự cập nhật: bấm “Cập nhật ngay” là ứng dụng tự tải bản mới, cài đặt và mở lại — không phải tải bộ cài thủ công nữa.",
+        "Menu ứng dụng (macOS) và biểu tượng khay (Windows) có “Kiểm tra bản cập nhật…”."
+      ],
+      "fixes": [
+        "Dải gợi ý GIF khi gõ chữ hiện/ẩn mượt, có khung chờ khi đang tìm; không còn giật cả cửa sổ.",
+        "“Đang soạn tin…” hiện/ẩn êm, không chớp."
+      ]
+    },
+    {
+      "version": "1.5.1",
+      "build": 16,
+      "date": "2026-10-13",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "fixes": [
+        "Bôi chọn chữ chỉ trong vùng cần chép: ⌘A/Ctrl+A và kéo chuột không còn quét sáng cả khung.",
+        "Bảng gợi ý @ khi lăn chuột ở mép không kéo theo khung chat; gõ @ hiện trọn thành viên kênh xếp A→Z, @nhóm cũng cuộn trong khung.",
+        "Hộp thư: tin chưa đọc có vạch màu và tiêu đề đậm; nút Tải thêm thư căn giữa.",
+        "Màn đọc thư hiện cả hội thoại thành một dải liên tục — không thu gọn thư cũ, không dải thư mới hơn tách rời; mở thư dừng đúng thẻ vừa bấm, có lối Mở thư mới nhất.",
+        "Windows: bấm liên kết ngoài từ chat không còn lỗi."
+      ]
+    },
+    {
+      "version": "1.3.0",
+      "date": "2026-10-09",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "features": [
+        "Hộp thư: kết nối Gmail, Outlook, Yahoo hoặc email công ty để đọc, trả lời, chuyển tiếp và soạn thư ngay trong app.",
+        "Chia sẻ thư vào cuộc trò chuyện (hiện gọn như tài liệu, gập phần trích dẫn) và tạo công việc bằng AI từ thư.",
+        "Gọi thoại và gọi video, cả 1-1 lẫn nhóm; gọi nhanh từ Danh bạ.",
+        "Trò chuyện với trợ lý (bot) ngay trong Danh bạ.",
+        "Nhắc cả nhóm bằng @all.",
+        "Giao diện mới, đồng bộ trên mọi thiết bị: menu gọn dạng thả xuống, nền xám khi mở menu, ô nhập có viền rõ.",
+        "Tìm kiếm mới: tô sáng từ khoá, gom kết quả theo cuộc trò chuyện, bấm \"N kết quả phù hợp\" để xem từng tin.",
+        "Tin nhắn hiển thị định dạng: tiêu đề, chữ đậm/nghiêng, trích dẫn, danh sách, bảng và mã.",
+        "Nhận cuộc gọi cả khi app đang tắt, trên màn hình cuộc gọi của hệ thống.",
+        "Nhấn giữ tin: menu gọn với thanh cảm xúc; \"Chọn văn bản\" để sao chép một phần tin.",
+        "Nút Emoji & sticker ngay trên ô soạn; khay \"+\" mới đẹp hơn.",
+        "Thanh tab hiện tên mọi mục; số chưa đọc gọn, tối đa \"99+\"."
+      ],
+      "fixes": [
+        "Danh sách kết quả tìm kiếm cuộn được.",
+        "Thư HTML vừa khung màn hình, không còn tràn ngang.",
+        "Ô tìm, nút Lọc, nút và ô nhập cao đều nhau.",
+        "Ảnh dự án hiển thị đồng nhất.",
+        "Đoạn mã trong tin không còn khung trắng khó đọc."
+      ]
+    },
+    {
+      "version": "1.5.0",
+      "build": 15,
+      "date": "2026-10-09",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "features": [
+        "Hộp thư: kết nối Gmail, Outlook, Yahoo hoặc email công ty để đọc, trả lời, chuyển tiếp và soạn thư ngay trong app.",
+        "Chia sẻ thư vào cuộc trò chuyện (hiện gọn như tài liệu, gập phần trích dẫn) và tạo công việc bằng AI từ thư.",
+        "Gọi thoại và gọi video, cả 1-1 lẫn nhóm; gọi nhanh từ Danh bạ.",
+        "Trò chuyện với trợ lý (bot) ngay trong Danh bạ.",
+        "Nhắc cả nhóm bằng @all.",
+        "Giao diện mới, đồng bộ trên mọi thiết bị: menu gọn dạng thả xuống, nền xám khi mở menu, ô nhập có viền rõ.",
+        "Tìm kiếm mới: tô sáng từ khoá, gom kết quả theo cuộc trò chuyện, bấm \"N kết quả phù hợp\" để xem từng tin.",
+        "Tin nhắn hiển thị định dạng: tiêu đề, chữ đậm/nghiêng, trích dẫn, danh sách, bảng và mã.",
+        "Chia sẻ màn hình khi gọi; thông báo cuộc gọi đến trên máy tính.",
+        "Mở app không còn trang trắng: màn chờ có logo và vòng tải.",
+        "Thanh thao tác khi rê chuột lên tin gọn hơn, nằm sát bong bóng.",
+        "Bảng Emoji & GIF lớn hơn, mở phía trên ô soạn, GIF 3 cột."
+      ],
+      "fixes": [
+        "Nhấp đúp để chọn chữ không còn giật.",
+        "Menu thả xuống không còn cắt chữ; ba khung thẳng hàng, cùng chiều cao.",
+        "Nút xoá trong ô tìm không còn lòi ra ngoài ô.",
+        "Giờ gửi cạnh tin ảnh không còn bị xếp dọc từng chữ.",
+        "Danh sách kết quả tìm kiếm cuộn được."
+      ]
+    },
+    {
+      "version": "1.4.0",
+      "build": 14,
+      "date": "2026-10-08",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "features": [
+        "Lệnh nhanh trong ô soạn: gõ / để tạo công việc, đặt nhắc hẹn, gửi đơn hàng ngay trong cuộc trò chuyện.",
+        "Nhắc cả phòng ban, chuyên môn hoặc ca trực bằng @nhóm; gửi tin Khẩn để mọi người chú ý ngay.",
+        "Hẹn giờ gửi tin và nhắc hẹn có thể lặp lại theo ngày, tuần, tháng.",
+        "Duyệt / Từ chối yêu cầu ngay trên thẻ duyệt trong khung chat; thẻ công việc, đơn hàng hiện dưới tin.",
+        "Trợ lý AI: hỏi đáp về cuộc trò chuyện, bản tin AI của nhóm, tạo công việc từ các tin gần đây.",
+        "Ghi chú nhóm trong Tùy chọn; chọn dự án mặc định cho nhóm.",
+        "Kênh thông báo: xem ai đã xem và nhắc người chưa xem.",
+        "Chọn nhiều tin để thu hồi, xoá hoặc tạo công việc bằng AI cùng lúc (chuột phải › Chọn nhiều tin, Esc để thoát); nút @ nhảy tới tin nhắc bạn.",
+        "Xem lịch sử sửa của tin (bấm \"đã sửa\").",
+        "Cắt, vẽ, đánh dấu, che mờ thông tin trên ảnh trước khi gửi; giao diện ghi âm tin thoại mới.",
+        "Giờ yên lặng: tạm tắt thông báo theo khung giờ.",
+        "Trạng thái trực tuyến cập nhật tức thì; đọc tin xong tự gỡ thông báo đã nhận.",
+        "Báo rõ khi tài khoản đăng nhập ở thiết bị khác; chọn đăng nhập thay phiên cũ khi đủ thiết bị.",
+        "Nhấp đúp lên tin để sao chép nội dung (phần chữ được bôi chọn để thấy rõ đã chép).",
+        "Khối mã kiểu Telegram: gõ ```ngôn ngữ … ``` để hiện mã có tô màu, tên ngôn ngữ và nút sao chép; `mã` trong câu hiện font đơn cách.",
+        "Trả lời của trả lời gom về MỘT luồng với tin gốc.",
+        "Thông báo macOS/Windows hiện cả khi đang dùng app (trừ cuộc trò chuyện đang mở).",
+        "Windows: trả lời nhanh và đánh dấu đã đọc ngay trên thông báo (như bản macOS).",
+        "Ảnh, tệp, liên kết: chuột phải › Xem trong tin nhắn để mở đúng tin gốc (cả ảnh/tệp cũ); có cả ở dải ảnh trong Tùy chọn."
+      ],
+      "fixes": [
+        "Tin gửi liên tiếp khi mạng chập chờn giữ đúng thứ tự, không còn hiện trùng; tin lỗi gửi lại được.",
+        "Danh sách tin tự cuộn xuống khi mình gửi, không kéo đi khi đang đọc tin cũ.",
+        "Ảnh trong khung chat không còn chớp lại khi cuộn hoặc có tin mới.",
+        "Dữ liệu nhạy cảm: hỏi \"Vẫn gửi / Sửa lại\" cả khi sửa tin và hẹn giờ gửi.",
+        "Đồng bộ lại đầy đủ nhãn, nhắc hẹn, thành viên sau khi mất mạng.",
+        "Video, ảnh mở nhanh và không còn báo lỗi \"quá nhiều yêu cầu\".",
+        "Phóng to ảnh không còn bị bôi xanh; video phủ kín ô; ảnh nền trắng có viền.",
+        "Kéo thanh cỡ chữ ở Giao diện đổi được cỡ chữ.",
+        "Tin đã thu hồi thẳng hàng với các tin khác.",
+        "Lối tắt trả lời nhanh hiện dấu \"/\"; tên đăng nhập bỏ \"@\" thừa.",
+        "Mỗi cuộc trò chuyện / người chỉ gắn một nhãn; tin đã thu hồi gọn hơn (bỏ biểu tượng).",
+        "Kéo một ảnh trong khung chat không còn gửi lại ảnh đó.",
+        "Thẻ \"đã tạo công việc\" không còn báo lỗi khi bấm \"Tin nhắn gốc\".",
+        "Đổi ảnh đại diện, đính tệp vào công việc, xuất dữ liệu cá nhân và xem trước tệp chữ (txt, csv, json) đã dùng được."
+      ]
+    },
+    {
+      "version": "1.2.0",
+      "date": "2026-10-02",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "features": [
+        "Đăng nhập bằng Apple (iPhone).",
+        "Lệnh nhanh trong ô soạn: gõ / để tạo công việc, đặt nhắc hẹn, gửi đơn hàng ngay trong cuộc trò chuyện.",
+        "Nhắc cả phòng ban, chuyên môn hoặc ca trực bằng @nhóm; gửi tin Khẩn để mọi người chú ý ngay.",
+        "Hẹn giờ gửi tin và nhắc hẹn có thể lặp lại theo ngày, tuần, tháng.",
+        "Duyệt / Từ chối yêu cầu ngay trên thẻ duyệt trong khung chat; thẻ công việc, đơn hàng hiện dưới tin.",
+        "Trợ lý AI: hỏi đáp về cuộc trò chuyện, bản tin AI của nhóm, tạo công việc từ các tin gần đây.",
+        "Ghi chú nhóm trong Tùy chọn; chọn dự án mặc định cho nhóm.",
+        "Kênh thông báo: xem ai đã xem và nhắc người chưa xem.",
+        "Chọn nhiều tin để thu hồi, xoá hoặc tạo công việc bằng AI cùng lúc; nút @ nhảy tới tin nhắc bạn.",
+        "Xem lịch sử sửa của tin (bấm \"đã sửa\").",
+        "Thả cảm xúc nhanh bằng chạm đúp, tự chọn biểu tượng cảm xúc mặc định.",
+        "Cắt, vẽ, đánh dấu, che mờ thông tin trên ảnh trước khi gửi; giao diện ghi âm tin thoại mới.",
+        "Giờ yên lặng: tạm tắt thông báo theo khung giờ.",
+        "Trạng thái trực tuyến cập nhật tức thì; đọc tin xong tự gỡ thông báo đã nhận.",
+        "Báo rõ khi tài khoản đăng nhập ở thiết bị khác; chọn đăng nhập thay phiên cũ khi đủ thiết bị."
+      ],
+      "fixes": [
+        "Tin gửi liên tiếp khi mạng chập chờn giữ đúng thứ tự, không còn hiện trùng; tin lỗi gửi lại được.",
+        "Danh sách tin tự cuộn xuống khi mình gửi, không kéo đi khi đang đọc tin cũ.",
+        "Ảnh trong khung chat không còn chớp lại khi cuộn hoặc mở bàn phím.",
+        "Dữ liệu nhạy cảm: hỏi \"Vẫn gửi / Sửa lại\" cả khi sửa tin và hẹn giờ gửi.",
+        "Đồng bộ lại đầy đủ nhãn, nhắc hẹn, thành viên sau khi mất mạng."
+      ]
+    },
+    {
+      "version": "1.3.0",
+      "build": 11,
+      "date": "2026-10-02",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "features": [
+        "Lệnh nhanh trong ô soạn: gõ / để tạo công việc, đặt nhắc hẹn, gửi đơn hàng ngay trong cuộc trò chuyện.",
+        "Nhắc cả phòng ban, chuyên môn hoặc ca trực bằng @nhóm; gửi tin Khẩn để mọi người chú ý ngay.",
+        "Hẹn giờ gửi tin và nhắc hẹn có thể lặp lại theo ngày, tuần, tháng.",
+        "Duyệt / Từ chối yêu cầu ngay trên thẻ duyệt trong khung chat; thẻ công việc, đơn hàng hiện dưới tin.",
+        "Trợ lý AI: hỏi đáp về cuộc trò chuyện, bản tin AI của nhóm, tạo công việc từ các tin gần đây.",
+        "Ghi chú nhóm trong Tùy chọn; chọn dự án mặc định cho nhóm.",
+        "Kênh thông báo: xem ai đã xem và nhắc người chưa xem.",
+        "Chọn nhiều tin để thu hồi, xoá hoặc tạo công việc bằng AI cùng lúc (rê chuột để hiện ô chọn, Esc để thoát); nút @ nhảy tới tin nhắc bạn.",
+        "Xem lịch sử sửa của tin (bấm \"đã sửa\").",
+        "Cắt, vẽ, đánh dấu, che mờ thông tin trên ảnh trước khi gửi; giao diện ghi âm tin thoại mới.",
+        "Giờ yên lặng: tạm tắt thông báo theo khung giờ.",
+        "Trạng thái trực tuyến cập nhật tức thì; đọc tin xong tự gỡ thông báo đã nhận.",
+        "Báo rõ khi tài khoản đăng nhập ở thiết bị khác; chọn đăng nhập thay phiên cũ khi đủ thiết bị.",
+        "Thả cảm xúc nhanh bằng nhấp đúp lên tin."
+      ],
+      "fixes": [
+        "Tin gửi liên tiếp khi mạng chập chờn giữ đúng thứ tự, không còn hiện trùng; tin lỗi gửi lại được.",
+        "Danh sách tin tự cuộn xuống khi mình gửi, không kéo đi khi đang đọc tin cũ.",
+        "Ảnh trong khung chat không còn chớp lại khi cuộn hoặc có tin mới.",
+        "Dữ liệu nhạy cảm: hỏi \"Vẫn gửi / Sửa lại\" cả khi sửa tin và hẹn giờ gửi.",
+        "Đồng bộ lại đầy đủ nhãn, nhắc hẹn, thành viên sau khi mất mạng.",
+        "Video, ảnh mở nhanh và không còn báo lỗi \"quá nhiều yêu cầu\".",
+        "Kéo một ảnh trong khung chat không còn gửi lại ảnh đó.",
+        "Đổi ảnh đại diện, đính tệp vào công việc, xuất dữ liệu cá nhân và xem trước tệp chữ (txt, csv, json) đã dùng được."
+      ]
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-09-30",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "features": [
+        "Khay tiện ích \"+\" mới: mở ngay chỗ bàn phím, biểu tượng màu, chuyển qua lại với bàn phím không giật.",
+        "Tạo bình chọn toàn màn hình: ghim lên đầu trò chuyện, đặt thời hạn, ẩn người bình chọn, chọn nhiều phương án.",
+        "Sửa bình chọn và thêm phương án ngay trên thẻ bình chọn.",
+        "Xem ai đã chọn phương án nào; avatar người bình chọn trên từng phương án.",
+        "Báo khi có phiên bản mới, kèm danh sách tính năng mới và lỗi đã sửa.",
+        "Bản Android nhẹ hơn một nửa, mở nhanh hơn."
+      ],
+      "fixes": [
+        "Mở menu, bảng trong khung chat không còn làm danh sách tin nhảy lên đầu (Android).",
+        "Android: chữ không còn bị cắt mất (vd nút \"Đăng nhập\").",
+        "Nhãn Trưởng nhóm / Phó nhóm nằm giữa dòng thành viên.",
+        "Đăng xuất hoặc đổi cửa hàng xoá sạch dữ liệu tệp của phiên trước."
+      ]
+    },
+    {
+      "version": "1.2.0",
+      "build": 10,
+      "date": "2026-09-30",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "features": [
+        "Tạo, sửa bình chọn và thêm phương án; xem ai đã chọn phương án nào.",
+        "Bảng \"Gửi thêm\" với biểu tượng màu dễ nhận.",
+        "Báo khi có phiên bản mới, kèm danh sách tính năng mới và lỗi đã sửa."
+      ],
+      "fixes": [
+        "Nhãn Trưởng nhóm / Phó nhóm nằm giữa dòng thành viên.",
+        "Đăng xuất xoá sạch dữ liệu tệp của phiên trước."
+      ]
+    },
+    {
+      "version": "1.1.1",
+      "build": 8,
+      "date": "2026-09-29",
+      "platforms": [
+        "mac",
+        "windows"
+      ],
+      "features": [
+        "Gợi ý @ nhắc tên và / trả lời nhanh chọn bằng bàn phím (↑/↓, Tab/Enter, Esc).",
+        "Con trỏ tự vào ô nhập khi mở cuộc trò chuyện."
+      ],
+      "fixes": [
+        "Menu chuột phải và bảng thao tác không còn chớp khi mở.",
+        "Cỡ chữ đều theo một thang chung; phông hệ thống mặc định."
+      ]
+    },
+    {
+      "version": "1.0.0",
+      "date": "2026-09-27",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "notes": [
+        "Ô nhập tin tự thu nhỏ lại sau khi gửi đoạn dài.",
+        "Chọn ảnh, video, tệp: hiện ngay trên ô soạn, các nút không còn bị khoá khi đang xử lý.",
+        "Sửa lỗi có thể thiếu một đoạn tin cũ khi mở lại ứng dụng sau thời gian dài.",
+        "Tạo nhóm không còn bị trùng khi bấm hai lần; cảnh báo rõ khi rời nhóm sẽ giải tán nhóm.",
+        "Danh sách kênh, khung chat và ô soạn tin mượt hơn.",
+        "Không còn treo khi mạng chập chờn; thông báo lỗi dễ hiểu hơn."
+      ]
+    }
+  ]
+}
